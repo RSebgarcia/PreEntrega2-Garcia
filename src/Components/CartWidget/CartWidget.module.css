@@ -1,0 +1,19 @@
+.cart{
+    font-size: 30px;
+}
+
+.counter{
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    width: 40px;
+    border-radius: 50%;
+    border: 8px solid #52db52 ;
+    background: #52db52;
+    translate: 210% -40%;
+}
+
+
+.btn{
+    width: 100px;
+}
