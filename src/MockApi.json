@@ -1,0 +1,568 @@
+{
+    "weapons": {
+        "iron-dagger": {
+            "name": "Iron Dagger",
+            "id": "0001397E",
+            "type": "One-Handed Weapon",
+            "damage": 5,
+            "weight": 3,
+            "value": 10,
+            "material": "Iron",
+            "enchantment": "",
+            "description": "A common dagger made of iron, sold by blacksmiths and found in many locations."
+        },
+        "orcish-bow": {
+            "name": "Orcish Bow",
+            "id": "00013993",
+            "type": "Bow",
+            "damage": 14,
+            "weight": 14,
+            "value": 550,
+            "material": "Orichalcum",
+            "enchantment": "Does 20 points of additional damage to Orcs.",
+            "description": "A powerful bow made of orichalcum, commonly used by Orcs and sometimes found in loot."
+        },
+        "steel-sword": {
+            "name": "Steel Sword",
+            "id": "0001359D",
+            "type": "One-Handed Weapon",
+            "damage": 9,
+            "weight": 8,
+            "value": 45,
+            "material": "Steel",
+            "enchantment": "",
+            "description": "A common sword made of steel, sold by blacksmiths and found in many locations."
+        },
+        "elven-dagger": {
+            "name": "Elven Dagger",
+            "id": "0001399D",
+            "type": "One-Handed Weapon",
+            "damage": 8,
+            "weight": 4,
+            "value": 235,
+            "material": "Moonstone",
+            "enchantment": "",
+            "description": "A finely crafted dagger made of moonstone, commonly used by Thalmor agents and sometimes found in loot."
+        },
+        "ebony-sword": {
+            "name": "Ebony Sword",
+            "id": "000139B9",
+            "type": "One-Handed Sword",
+            "damage": 19,
+            "weight": 16,
+            "value": 2000,
+            "material": "Ebony Ingot",
+            "enchantment": "Deals 30 points of Frost damage to Health and Stamina.",
+            "description": "A deadly sword made of rare ebony metal, capable of freezing enemies in their tracks."
+        },
+        "daedric-bow": {
+            "name": "Daedric Bow",
+            "id": "000139B5",
+            "type": "Bow",
+            "damage": 19,
+            "weight": 18,
+            "value": 2250,
+            "material": "Daedra Heart, Ebony Ingot",
+            "enchantment": "Increases your Speed by 30% for 30 seconds.",
+            "description": "A bow made of the rarest and most powerful material in Tamriel, forged in the fires of Oblivion itself."
+        },
+        "glass-axe": {
+            "name": "Glass Axe",
+            "id": "000139A2",
+            "type": "One-Handed Axe",
+            "damage": 17,
+            "weight": 15,
+            "value": 1800,
+            "material": "Refined Malachite",
+            "enchantment": "Deals 50% more damage to Elves.",
+            "description": "An exquisite axe made of glass, designed to deal maximum damage to the elven races."
+        },
+        "dragonbone-mace": {
+            "name": "Dragonbone Mace",
+            "id": "0003ADA4",
+            "type": "One-Handed Mace",
+            "damage": 21,
+            "weight": 20,
+            "value": 2500,
+            "material": "Dragon Bone",
+            "enchantment": "Deals 25 points of Fire damage and 25 points of Shock damage.",
+            "description": "A mace made of the bones of a slain dragon, imbued with the elemental fury of the dragon's breath."
+        },
+        "ancient-falmer-bow": {
+            "name": "Ancient Falmer Bow",
+            "id": "000CEE9E",
+            "type": "Bow",
+            "damage": 15,
+            "weight": 12,
+            "value": 3000,
+            "material": "Refined Moonstone, Chaurus Chitin",
+            "enchantment": "Deals 30 points of Sun damage.",
+            "description": "A rare and ancient bow, crafted by the Falmer and imbued with the power of the sun to strike down their Dwemer enemies."
+        },
+        "stalhrim-greatsword": {
+            "name": "Stalhrim Greatsword",
+            "id": "0006BBD5",
+            "type": "Two-Handed Sword",
+            "damage": 23,
+            "weight": 24,
+            "value": 2800,
+            "material": "Stalhrim",
+            "enchantment": "Deals 25 points of Frost damage.",
+            "description": "A massive greatsword made of the rare and valuable stalhrim, capable of freezing enemies solid with a single blow."
+        },
+        "ebony-battleaxe": {
+            "name": "Ebony Battleaxe",
+            "id": "000139AE",
+            "type": "Two-Handed Weapon",
+            "damage": 24,
+            "weight": 31,
+            "value": 2750,
+            "material": "Ebony",
+            "enchantment": "Absorb 15 points of Health",
+            "description": "A rare battleaxe made from ebony, a dark and heavy metal found in the mines of Morrowind."
+        },
+        "glass-bow": {
+            "name": "Glass Bow",
+            "id": "000139A2",
+            "type": "Bow",
+            "damage": 18,
+            "weight": 14,
+            "value": 820,
+            "material": "Glass",
+            "enchantment": "Frost damage 15 points",
+            "description": "An elegant bow made from glass, a rare and fragile material only crafted by the most skilled artisans."
+        },
+        "dragonbone-greatsword": {
+            "name": "Dragonbone Greatsword",
+            "id": "000139B5",
+            "type": "Two-Handed Weapon",
+            "damage": 27,
+            "weight": 20,
+            "value": 2900,
+            "material": "Dragon Bone",
+            "enchantment": "Fire damage 20 points",
+            "description": "A greatsword made from the bones of a dragon, said to be one of the most powerful and deadly weapons in all of Skyrim."
+        },
+        "elven-warhammer": {
+            "name": "Elven Warhammer",
+            "id": "0001399F",
+            "type": "Two-Handed Weapon",
+            "damage": 26,
+            "weight": 24,
+            "value": 1280,
+            "material": "Refined Moonstone",
+            "enchantment": "Paralyze for 3 seconds",
+            "description": "A beautifully crafted warhammer made from elven moonstone, known for its stunning beauty and deadly effectiveness in battle."
+        },
+        "imperial-bow": {
+            "name": "Imperial Bow",
+            "id": "000136D8",
+            "type": "Bow",
+            "damage": 9,
+            "weight": 7,
+            "value": 130,
+            "material": "Steel Ingot",
+            "enchantment": "",
+            "description": "A simple yet reliable bow used by the Imperial army, made from sturdy steel and designed for long-range combat."
+        }
+    },
+    "armor": {
+        "steel-plate-shield": {
+            "name": "Steel Plate Shield",
+            "id": "00013954",
+            "type": "Shield",
+            "armorRating": 32,
+            "weight": 14,
+            "value": 750,
+            "material": "Steel Ingot",
+            "enchantment": "Blocking absorbs 10% more damage",
+            "description": "A heavy steel shield designed to protect the wearer from powerful blows, commonly used by the most experienced soldiers in Skyrim."
+        },
+        "dwarven-shield": {
+            "name": "Dwarven Shield",
+            "id": "000ACBED",
+            "type": "Shield",
+            "armorRating": 30,
+            "weight": 14,
+            "value": 650,
+            "material": "Dwarven Metal Ingot",
+            "enchantment": "Blocking absorbs 10% more damage",
+            "description": "A sturdy shield made from the ancient metal of the Dwemer, known for its durability and resistance to magic."
+        },
+        "iron-helmet": {
+            "name": "Iron Helmet",
+            "id": "00012E46",
+            "type": "Heavy Armor",
+            "armorRating": 7,
+            "weight": 5,
+            "value": 30,
+            "material": "Iron Ingot",
+            "enchantment": "None",
+            "description": "A basic helmet made of iron, providing decent protection for the head."
+        },
+        "glass-boots": {
+            "name": "Glass Boots",
+            "id": "0001393D",
+            "type": "Light Armor",
+            "armorRating": 23,
+            "weight": 4,
+            "value": 500,
+            "material": "Malachite",
+            "enchantment": "Increases wearer's stamina by 30 points.",
+            "description": "Boots made of glass that are surprisingly light and sturdy."
+        },
+        "steel-gauntlets": {
+            "name": "Steel Gauntlets",
+            "id": "00013952",
+            "type": "Heavy Armor",
+            "armorRating": 8,
+            "weight": 3,
+            "value": 55,
+            "material": "Steel Ingot",
+            "enchantment": "None",
+            "description": "Sturdy gauntlets made of steel, providing good protection for the hands."
+        },
+        "orcish-bow": {
+            "name": "Orcish Bow",
+            "id": "0001398E",
+            "type": "Bow",
+            "damage": 14,
+            "weight": 9,
+            "value": 450,
+            "material": "Orichalcum Ingot",
+            "enchantment": "None",
+            "description": "A bow made of orcish metal, known for its strength and durability."
+        },
+        "elven-cuirass": {
+            "name": "Elven Cuirass",
+            "id": "000139A3",
+            "type": "Light Armor",
+            "armorRating": 24,
+            "weight": 7,
+            "value": 825,
+            "material": "Moonstone",
+            "enchantment": "Increases wearer's magicka by 30 points.",
+            "description": "A light cuirass made of elven metal, known for its elegance and magical properties."
+        },
+        "ebony-shield": {
+            "name": "Ebony Shield",
+            "id": "000139AE",
+            "type": "Shield",
+            "armorRating": 36,
+            "weight": 16,
+            "value": 1200,
+            "material": "Ebony Ingot",
+            "enchantment": "Increases wearer's magic resistance by 20%.",
+            "description": "A heavy shield made of ebony, known for its exceptional protection against magic."
+        },
+        "iron-gauntlets": {
+            "name": "Iron Gauntlets",
+            "id": "00013950",
+            "type": "Heavy Armor",
+            "armorRating": 5,
+            "weight": 3,
+            "value": 25,
+            "material": "Iron Ingot",
+            "enchantment": "None",
+            "description": "Simple gauntlets made of iron, providing basic protection for the hands."
+        },
+        "nightingale-armor": {
+            "name": "Nightingale Armor",
+            "id": "000FCC0A",
+            "type": "Light Armor",
+            "armorRating": 78,
+            "weight": 8,
+            "value": 1200,
+            "material": "N/A",
+            "enchantment": "Increases Stamina by 50 points. Wearer is muffled and moves silently.",
+            "description": "An ancient set of armor worn by the Nightingales, a secretive group of thieves that serve the Daedric Prince Nocturnal."
+        },
+        "daedric-boots": {
+            "name": "Daedric Boots",
+            "id": "0001396B",
+            "type": "Heavy Armor",
+            "armorRating": 24,
+            "weight": 8,
+            "value": 1200,
+            "material": "Ebony Ingot",
+            "enchantment": "Increases Stamina by 20 points. Wearer is muffled and moves silently.",
+            "description": "Boots crafted from the blackest of ebony and infused with the power of the Daedra."
+        },
+        "dragonplate-helmet": {
+            "name": "Dragonplate Helmet",
+            "id": "0001396D",
+            "type": "Heavy Armor",
+            "armorRating": 12,
+            "weight": 6,
+            "value": 1250,
+            "material": "Dragon Scales and Bones",
+            "enchantment": "Increases your Magicka by 20 points. ",
+            "description": "A helmet crafted from the scales and bones of a dragon, said to bestow the power of the dragon upon its wearer."
+        },
+        "savior-hide": {
+            "name": "Savior's Hide",
+            "id": "0002AC61",
+            "type": "Light Armor",
+            "armorRating": 26,
+            "weight": 7,
+            "value": 1800,
+            "material": "N/A",
+            "enchantment": "Increases Magic Resistance by 15%.",
+            "description": "A unique hide armor, blessed by the Daedric Prince Hircine, that provides protection against magic and the elements."
+        },
+        "ahzidal's-boots-of-waterwalking": {
+            "name": "Ahzidal's Boots of Waterwalking",
+            "id": "0200EFD6",
+            "type": "Light Armor",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 200,
+            "material": "N/A",
+            "enchantment": "Allows the wearer to walk on water.",
+            "description": "Boots crafted by the ancient Nord enchanter Ahzidal, imbued with the power to walk on water."
+        },
+        "ancient-shrouded-armor": {
+            "name": "Ancient Shrouded Armor",
+            "id": "000CEE9E",
+            "type": "Light Armor",
+            "armorRating": 72,
+            "weight": 7,
+            "value": 750,
+            "material": "N/A",
+            "enchantment": "Increases your Stamina by 50 points. Wearer is muffled and moves silently.",
+            "description": "A set of armor worn by members of the secretive assassins' guild known as the Dark Brotherhood, said to have been crafted by the Night Mother herself."
+        }
+    },
+    "magic": {
+        "tome-of-fireball": {
+            "name": "Tome of Fireball",
+            "id": "000A44CC",
+            "type": "Spell Tome",
+            "description": "Teaches the spell Fireball which deals 40 points of fire damage to all targets in the area.",
+            "baseDamage": 40,
+            "weight": 1,
+            "value": 450,
+            "material": "Paper",
+            "rarity": "Common"
+        },
+        "staff-of-chain-lightning": {
+            "name": "Staff of Chain Lightning",
+            "id": "0008FFDF",
+            "type": "Staff",
+            "description": "Fires a bolt of lightning that arcs between targets dealing 40 points of shock damage to Health and half to Magicka.",
+            "baseDamage": 40,
+            "weight": 8,
+            "value": 2050,
+            "material": "Wood",
+            "rarity": "Rare"
+        },
+        "tome-of-conjure-frost-atronach": {
+            "name": "Tome of Conjure Frost Atronach",
+            "id": "000A26E7",
+            "type": "Spell Tome",
+            "description": "Teaches the spell Conjure Frost Atronach which summons a Frost Atronach to fight for the caster for 60 seconds.",
+            "weight": 1,
+            "value": 515,
+            "material": "Paper",
+            "damage": 0,
+            "rarity": "Common"
+        },
+        "staff-of-firebolts": {
+            "name": "Staff of Firebolts",
+            "id": "000F83D4",
+            "type": "Staff",
+            "description": "Sprays fireballs that explode on impact dealing 25 points of fire damage to Health and half to Magicka.",
+            "weight": 8,
+            "value": 1000,
+            "material": "Wood",
+            "damage": 25,
+            "rarity": "Rare"
+        },
+        "tome-of-lightning-bolt": {
+            "name": "Tome of Lightning Bolt",
+            "id": "000A44CD",
+            "type": "Spell Tome",
+            "description": "Teaches the spell Lightning Bolt which deals 25 points of shock damage to Health.",
+            "weight": 1,
+            "value": 275,
+            "material": "Paper",
+            "damage": 25,
+            "rarity": "Common"
+        },
+        "staff-of-flames": {
+            "name": "Staff of Flames",
+            "id": "0002AC6F",
+            "type": "Staff",
+            "description": "Sprays flames that deal 8 points of fire damage per second to Health and half to Magicka.",
+            "weight": 8,
+            "value": 350,
+            "material": "Wood",
+            "damage": 8,
+            "rarity": "Common"
+        },
+        "robes-of-destruction": {
+            "name": "Robes of Destruction",
+            "id": "0004C3C1",
+            "type": "Clothing",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 500,
+            "material": "Fine Clothes",
+            "description": "Robes infused with the power of destruction magic.",
+            "effects": [
+                "Increases Destruction spells' power by 25%."
+            ]
+        },
+        "archmage-robes": {
+            "name": "Archmage Robes",
+            "id": "0007C932",
+            "type": "Clothing",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 1000,
+            "material": "Fine Clothes",
+            "description": "The traditional robes of the Archmage of the College of Winterhold.",
+            "effects": [
+                "Increases Magicka regeneration rate by 100%.",
+                "Reduces the cost of all spells by 15%."
+            ]
+        },
+        "necromancer-robes": {
+            "name": "Necromancer Robes",
+            "id": "0010D67A",
+            "type": "Clothing",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 800,
+            "material": "Fine Clothes",
+            "description": "Robes worn by necromancers, who seek to control the power of the dead.",
+            "effects": [
+                "Increases the duration of reanimated undead by 100%."
+            ]
+        },
+        "expert-robes-of-illusion": {
+            "name": "Expert Robes of Illusion",
+            "id": "0010DFB5",
+            "type": "Clothing",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 500,
+            "material": "Fine Clothes",
+            "description": "Expert-level robes imbued with the power of illusion magic.",
+            "effects": [
+                "Illusion spells cost 12% less to cast.",
+                "Illusion spells are 20% more powerful."
+            ]
+        },
+        "adept-robes-of-alteration": {
+            "name": "Adept Robes of Alteration",
+            "id": "0010DFB3",
+            "type": "Clothing",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 400,
+            "material": "Fine Clothes",
+            "description": "Adept-level robes imbued with the power of alteration magic.",
+            "effects": [
+                "Alteration spells cost 12% less to cast.",
+                "Alteration spells are 20% more powerful."
+            ]
+        },
+        "apprentice-robes-of-restoration": {
+            "name": "Apprentice Robes of Restoration",
+            "id": "0010DFB6",
+            "type": "Clothing",
+            "armorRating": 0,
+            "weight": 1,
+            "value": 300,
+            "material": "Fine Clothes",
+            "description": "Apprentice-level robes imbued with the power of restoration magic.",
+            "effects": [
+                "Restoration spells cost 12% less to cast.",
+                "Restoration spells are 20% more powerful."
+            ]
+        }
+    },
+    "misc": {
+        "lockpick": {
+            "name": "Lockpick",
+            "id": "0000000A",
+            "type": "Miscellaneous Item",
+            "weight": 0.5,
+            "value": 25,
+            "description": "A tool for picking locks."
+        },
+        "stone-of-barenziah": {
+            "name": "Stone of Barenziah",
+            "id": "0009DFBB",
+            "type": "Miscellaneous Item",
+            "weight": 0.5,
+            "value": 200,
+            "description": "A rare gemstone that is part of the Crown of Barenziah."
+        },
+        "dragon-claw": {
+            "name": "Dragon Claw",
+            "id": "000F71DD",
+            "type": "Miscellaneous Item",
+            "weight": 5,
+            "value": 50,
+            "description": "A claw from a dragon used to unlock ancient Nord doors."
+        },
+        "nirnroot": {
+            "name": "Nirnroot",
+            "id": "000B701A",
+            "type": "Miscellaneous Item",
+            "weight": 0.2,
+            "value": 10,
+            "description": "A glowing blue plant that grows near water. Used in alchemy."
+        },
+        "mammoth-tusk": {
+            "name": "Mammoth Tusk",
+            "id": "0003AD60",
+            "type": "Miscellaneous Item",
+            "weight": 10,
+            "value": 50,
+            "description": "A tusk from a mammoth. Used in crafting and alchemy."
+        },
+        "dwemer-puzzle-cube": {
+            "name": "Dwemer Puzzle Cube",
+            "id": "0005A05A",
+            "type": "Miscellaneous Item",
+            "weight": 1,
+            "value": 500,
+            "description": "A mysterious Dwemer artifact with unknown purpose."
+        },
+        "dwarven-oil": {
+            "name": "Dwarven Oil",
+            "id": "0003A070",
+            "type": "Miscellaneous Item",
+            "weight": 0.5,
+            "value": 30,
+            "description": "An oil used to lubricate and maintain Dwemer machinery."
+        },
+        "fire-salts": {
+            "name": "Fire Salts",
+            "id": "00034CDD",
+            "type": "Miscellaneous Item",
+            "weight": 0.3,
+            "value": 50,
+            "description": "Crystallized residue from a fire elemental. Used in crafting and alchemy."
+        },
+        "frost-salts": {
+            "name": "Frost Salts",
+            "id": "0003AD5F",
+            "type": "Miscellaneous Item",
+            "weight": 0.3,
+            "value": 50,
+            "description": "Crystallized residue from an ice elemental. Used in crafting and alchemy."
+        },
+        "void-salts": {
+            "name": "Void Salts",
+            "id": "0003AD5E",
+            "type": "Miscellaneous Item",
+            "weight": 0.3,
+            "value": 125,
+            "description": "Crystallized residue from a storm atronach. Used in crafting and alchemy."
+        }
+    }
+}

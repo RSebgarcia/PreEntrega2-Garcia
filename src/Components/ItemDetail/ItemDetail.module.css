@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+.align{
+    margin-top: 8%;
+    border: 2px solid #333; 
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.83);
+    font-family: 'Kalam', cursive;
+    background-color: rgb(253, 245, 232);
+
+}
+.desc{
+    height: 700px;
+    background-color: #333;
+    color: rgb(253, 245, 232);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width:min-content;
+
+}
+p{
+    font-size: 22px;
+}
+.effect{
+    filter: drop-shadow(0px 0px 20px  #333);
+}
+.buttonAlign{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: rgb(253, 245, 232);
+    color: #333;
+    font-size: 25px;
+    width: 300px;
+    padding-top: 12px;
+    
+}
+
+
+@media only screen  and (max-width: 990px) {
+p{
+    font-size: 22px;
+}
+    .desc{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+.align{
+    max-width: 700px;
+}
+.button{
+    padding-top: 12px;
+    font-size: 36px;
+line-height: 50px;
+}
+
+}
+

@@ -1,12 +1,29 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import Productos from "../Productos.json"
+import ItemList from "../ItemList/ItemList";
+const ItemListContainer = () => {
+    const [item, setItem] = useState([])
+    const { id } = useParams();
 
-function ItemListContainer({ greeting }) {
+    useEffect(() => {
+        const promesa = new Promise((resolve) => {
+            setTimeout(() => {
+                resolve(id ? Productos.filter(item => item.type === id) : Productos)
+            }, 300)
+        });
+    promesa.catch((Error))
+        promesa.then((data) => {
+            setItem(data)
+        })
+
+    }, [id]);
+
     return (
-    <div style={{ backgroundColor: '#f2f2f2', padding: '20px', textAlign: 'center' }}>
-        <h2>{greeting}</h2>
-        <p style={{ fontStyle: 'italic' }}>Componente ItemListContainer utilizando el styling integrado</p>
-    </div>
+        <div className="container">
+            <ItemList item={item} />
+        </div>
     );
 };
 export default ItemListContainer 
