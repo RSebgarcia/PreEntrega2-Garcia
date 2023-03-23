@@ -1,6 +1,7 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 .card {
+    font-family: 'MedievalSharp', cursive;
     min-width: 200px;
     max-width: 350;
     min-height: 312px;

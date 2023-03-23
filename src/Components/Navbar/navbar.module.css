@@ -1,23 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 header{
     background-color: #333;
     height: 80px;
     margin: 0;
     align-items: baseline;
     font-size: 20px;
+    font-family: 'MedievalSharp', cursive;
 }
-ul {
-    list-style-type: none;
-    overflow: hidden;
+button{
+    margin-right: 10px;
+    box-shadow: 0px 0px 15px 2px #1d1d1d;
 }
-
-.img{
-    width: 60px;
-    height: 60px;
-    border-radius: 10%;
-    margin-right: 50px;
-    margin-left: 20px;
-}
-li{
-    margin-left: 10px;
-    color: white;
+button:hover{
+    box-shadow: 0px 0px 115px -8px rgb(255, 255, 255);
 }

@@ -8,7 +8,7 @@ const ItemDetail = ({ item }) => {
         <div className={`d-flex justify-content-center align-items-center flex-wrap flex-lg-nowrap ${ItemCss.align}`}>
             <img src={item.image} className={`img-fluid ms-lg-3 mt-5 mb-sm-5 ${ItemCss.effect}`} alt={item.name} />
             <div className={` p-sm-5 ${ItemCss.desc}`} >
-                <h1>{item.name}</h1>
+                <h2>{item.name}</h2>
                 <p className=" mt-4">{item.description}</p>
                 <p className=" mt-4">Damage: {item.damage}  </p>
                 <p className=" mt-4">Armor Rating: {item.armorRating}  </p>
