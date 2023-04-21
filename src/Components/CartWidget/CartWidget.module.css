@@ -1,19 +1,26 @@
-.cart{
-    font-size: 30px;
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.counter{
-    line-height: 26px;
-    text-align: center;
-    font-size: 18px;
-    width: 40px;
+.cart {
+    font-size: 24px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.counter {
+position: absolute;
+top: 1%;
+right: 5%;
     border-radius: 50%;
-    border: 8px solid #52db52 ;
-    background: #52db52;
-    translate: 210% -40%;
+    width: 20px;
+    background-color: orangered;
+    font-size: 14px;
+    font-weight: bold;
+    align-self: center;
+    color: #333;
 }
 
-
-.btn{
-    width: 100px;
-}

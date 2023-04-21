@@ -1,40 +1,28 @@
 import React from "react";
 import { useEffect, useState, } from "react";
 import { useParams } from "react-router-dom";
-import Productos from "../Productos.json";
 import ItemDetail from "./ItemDetail";
+import { db } from "../assets/Firebase";
+import {doc, getDoc} from 'firebase/firestore'
 
 
 const ItemDetailContainer = () => {
-
-    const [item, setItem] = useState({});
+    const [item, setItem] = useState('');
     const { id } = useParams();
-
     useEffect(() => {
-        const promesa = new Promise((resolve) => {
-            console.log(id);
-            setTimeout(() => {
-                resolve(Productos.find(item => item.id === id))
-            }, 300);
-        }, []);
+const queryDb = db;
+const queryDoc = doc (queryDb, 'Items', id );
+getDoc(queryDoc)
+.then (res=> setItem({id: res.id, ...res.data()}))
 
-        promesa.then((data) => {
-            setItem(data);
-            console.log(data)
-            console.log(item)
-        })
 
-    }, [id, item])
-
-    console.log(item)
+    }, [id])
     return (
         <div className="container">
             <div className= {`d-flex justify-content-center align-items-center`}>
             <ItemDetail item={item} />
             </div>
         </div>
-
-
     )
 
 }

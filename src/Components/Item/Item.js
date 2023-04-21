@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import ItemCss from "./Item.module.css"
 
 const Item = ({ item }) => {
+    
     return (
         <Link to={"/item/" + item.id} className={`text-decoration-none`}  >
             <Card className={` m-2 mt-5 p-3 ${ItemCss.card}`} >
