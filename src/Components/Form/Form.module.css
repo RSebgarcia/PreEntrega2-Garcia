@@ -30,7 +30,7 @@ input, textarea{
     width: 25rem;
 }
 
-button{
+.formButton{
     border-radius: 1rem;
     width: 50%;
     height: 3rem;

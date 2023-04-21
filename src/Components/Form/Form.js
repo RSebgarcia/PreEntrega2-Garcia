@@ -109,7 +109,7 @@ function BuyerForm() {
                     ></textarea>
                 </div>
                 <div className={`d-flex justify-content-center`}>
-                <button type="submit">Submit</button>
+                <button className={`${Styles.formButton} `} type="submit">Submit</button>
                 </div>
             </form>
         </div>
