@@ -6,8 +6,7 @@ width: 100vh;
 font-family: 'MedievalSharp', cursive;
 color: bisque;
 font-size: 1.5rem;
-display: flex;
-justify-content: space-around;
+
 
 }
 .formBody{
