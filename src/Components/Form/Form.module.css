@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.container{
+height: 90vh;
+width: 100vh;
+font-family: 'MedievalSharp', cursive;
+color: bisque;
+font-size: 1.5rem;
+display: flex;
+justify-content: space-around;
+
+}
+.formBody{
+    height: 60rem;
+    border: 1px solid #333;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #333;
+    box-shadow: 0px 0px 12px 3px rgba(0,0,0,0.83);
+
+}
+
+label{
+    text-align: end;
+}
+input, textarea{
+    margin-left: 2rem;
+    border-radius: 1rem;
+    width: 25rem;
+}
+
+button{
+    border-radius: 1rem;
+    width: 50%;
+    height: 3rem;
+
+}

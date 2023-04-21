@@ -13,9 +13,7 @@ const ItemDetailContainer = () => {
 const queryDb = db;
 const queryDoc = doc (queryDb, 'Items', id );
 getDoc(queryDoc)
-.then (res=> setItem({id: res.id, ...res.data()}))
-
-
+.then (res=> setItem({id: res.id, ...res.data(),quantity:0}))
     }, [id])
     return (
         <div className="container">

@@ -1,14 +1,25 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Styles from "./ItemDetail.module.css";
 import Button from "react-bootstrap/Button";
 import { CartContext } from "../context/CartContext";
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({ item }) => {
-    const { addItem, addToCart, itemList } = useContext(CartContext);
+    const { addToCart, itemList } = useContext(CartContext);
 
     useEffect(() => {
         console.log("itemList has changed:", itemList);
     }, [itemList]);
+
+    const [counter, setCounter] = useState(1)
+
+    const sub = () => {
+        setCounter(counter - 1);
+    }
+    const sum = () => {
+        setCounter(counter + 1);
+    }
+
 
     return (
         <div
@@ -26,13 +37,25 @@ const ItemDetail = ({ item }) => {
                 <p className=" mt-4">Armor Rating: {item.armorRating} </p>
                 <p className=" mt-4">Weight: {item.weight} Kilos </p>
                 <p className=" mt-4">Enchantment: {item.enchantment} </p>
+                <p>Stock: {item.stock}</p>
                 <p className=" mt-4">{item.value} Septims </p>
+                <div className={`d-flex flex-row justify-content-center`}>
+                        <button disabled={counter < 1}
+                            onClick={sub}
+                            className={`p-2 m-1 btn btn-dark`}>-</button>
+                        <p className={`p-2 m-1 `}>{counter}</p>
+                        <Button
+                            onClick={sum}
+                            disabled={counter >= item.stock}
+                            className={`p-2 m-1 btn btn-dark`}>+</Button>
+                    </div>
                 <div className={`${Styles.buttonAlign}`}>
+                <Link to={"/"} >
                     <Button
                         onClick={() => {
-                            addItem();
-                            addToCart(item);
-                        }}className={`mt-3 text-sm-center ${Styles.button}`}>Add to Cart</Button>
+                            addToCart(item, counter);
+                        }} className={`mt-3 text-sm-center ${Styles.button}`}>Add to Cart</Button>
+                </Link>
                 </div>
             </div>
         </div>
